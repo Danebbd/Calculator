@@ -1,0 +1,34 @@
+#Textarea{
+    border: solid, black, 3xp ;
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+
+}
+.ButtonArea{
+    display: grid;
+    width: 300px;
+    size : 100px;
+    grid-template-columns: 100px 100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    }
+
+button{
+
+    font-size: x-large;
+
+}
+#equals{
+    grid-row: 2 / 6;
+    grid-column: 4;
+}
+.Calc{
+    display:flex;
+    width: 400px;
+    flex-wrap: wrap;
+    background-color:darkblue ;
+    border: solid darkblue 10px;
+   
+}
