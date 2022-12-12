@@ -1,13 +1,27 @@
-#Textarea{
+#screen{
     border: solid, black, 3xp ;
     width: 400px;
     height: 100px;
     background-color: black;
+}
+
+#Textarea{
     color: white;
-    font-size: xx-large;
+    font-size: x-large;
+    text-align: right;
+    
 
 }
-.ButtonArea{
+
+#equation{
+    text-align: left;
+    position: relative;
+    color: white;
+    padding-left: 2%;
+    font-size: large;
+}
+
+#ButtonArea{
     display: grid;
     width: 300px;
     size : 100px;
@@ -24,11 +38,25 @@ button{
     grid-row: 2 / 6;
     grid-column: 4;
 }
-.Calc{
+#Calc{
     display:flex;
     width: 400px;
     flex-wrap: wrap;
     background-color:darkblue ;
     border: solid darkblue 10px;
    
+}
+@media only screen and (max-width: 768px) {
+    #Calc{
+        width: 100%;
+    } 
+    #screen{
+        width:100%;
+    }
+    #ButtonArea{
+        width: 75%;
+        size : 25%;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+    }
 }
