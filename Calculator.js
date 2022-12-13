@@ -1,5 +1,4 @@
 /* Variables*/
-const calc = document.querySelector(".calc")
 var num1 = '';
 var num2 = '';
 var oper = '';
